@@ -34,8 +34,10 @@ Compare performance metrics (AUC, F1-score, Recall, Precision, etc.).
 
 To run this project, clone the repository and install the required dependencies:
 
-```git clone https://github.com/your-repo/kmeans-undersampling.git```
+```git clone https://github.com/tamarmic/Tabular-data-science.git```
+
 ```cd Final project```
+
 ```pip install -r requirements.txt```
 
 Alternatively, you can run the Colab notebook directly: Colab Link
