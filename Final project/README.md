@@ -56,6 +56,6 @@ The balanced dataset improved model performance, especially in recall and F1-sco
 
 The approach preserved meaningful patterns in the data while reducing bias towards the majority class.
 
-##Contributors
+## Contributors
 
 Devora Siminovsky and Tamar Michelson
