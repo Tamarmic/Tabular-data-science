@@ -28,7 +28,7 @@ Class imbalance is a common issue in many classification problems, especially in
 
 Train machine learning models on the original and resampled datasets.
 
-Compare performance metrics (AUC, F1-score, Recall, Precision, etc.).
+Compare performance metrics (F1-score, Recall, Precision, etc.).
 
 ## Installation
 
