@@ -12,17 +12,17 @@ Class imbalance is a common issue in many classification problems, especially in
 
 ### Data Preprocessing:
 
-Load and clean the dataset.
+* Load and clean the dataset.
 
-Identify class imbalance.
+* Identify class imbalance.
 
-KMeans-Based Undersampling:
+* KMeans-Based Undersampling:
 
-Apply KMeans clustering to the majority class.
+* Apply KMeans clustering to the majority class.
 
-Select representative samples from each cluster to retain diversity.
+* Select representative samples from each cluster to retain diversity.
 
-Balance the dataset by combining the sampled majority class with the minority class.
+* Balance the dataset by combining the sampled majority class with the minority class.
 
 ### Model Training & Evaluation:
 
@@ -40,19 +40,17 @@ To run this project, clone the repository and install the required dependencies:
 
 ```pip install -r requirements.txt```
 
-Alternatively, you can run the Colab notebook directly: Colab Link
+## Files
 
-Files
+* TDS_clustering_all_datasets_final.ipynb: Main notebook implementing the approach.
 
-TDS_clustering_all_datasets_final.ipynb: Main notebook implementing the approach.
+* data/: Folder containing sample datasets.
 
-data/: Folder containing sample datasets.
+* README.md: This documentation.
 
-README.md: This documentation.
+* TDS_Project.pdf: Explains and summarizes the method and all results
 
-TDS_Project.pdf: Explains and summarizes the method and all results
-
-The method was tested on an imbalanced dataset.
+## The method was tested on an imbalanced dataset.
 
 The balanced dataset improved model performance, especially in recall and F1-score.
 
